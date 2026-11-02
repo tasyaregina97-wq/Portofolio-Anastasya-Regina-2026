@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anastasya — Portofolio 2026</title>
+<meta name="description" content="Portofolio desain grafis Anastasya 2026: poster, logo, menu, feeds Instagram, dan sampul buletin.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>💌</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--mauve:#6f5d58;--pink:#ecb3cd;--pink2:#f7c9dc;--cream:#f6e5cf;--blue:#8db7e6;--sage:#8aa35f;--ink:#2a1f3d;--gold:#f0c24b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Cormorant Garamond",Garamond,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink);background:var(--mauve)}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:"Pinyon Script","Snell Roundhand",cursive;font-weight:400;margin:0;line-height:1.05}
+section{position:relative;padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,4rem);overflow:hidden}
+.wrap{max-width:1180px;margin:0 auto}
+.title{font-size:clamp(3.2rem,9vw,6.5rem)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* Cover */
+#cover{min-height:100svh;display:grid;align-items:center;background:var(--mauve) url(assets/p1_0.png) center/cover;color:var(--cream)}
+#cover::before{content:"";position:absolute;inset:0;background:rgba(111,93,88,.82)}
+#cover .wrap{position:relative;display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:center}
+.env{position:relative;aspect-ratio:1.15;max-width:560px;width:100%;margin:0 auto}
+.env .back{position:absolute;inset:18% 4% 0;background:#ffb7bf;transform:rotate(-8deg);clip-path:polygon(0 18%,50% 0,100% 18%,100% 100%,0 100%)}
+.env .strip{position:absolute;left:34%;top:0;width:30%;display:grid;gap:3%;background:#f4f1ea;padding:2.5%;transform:rotate(7deg);box-shadow:0 6px 18px rgba(0,0,0,.25);z-index:2}
+.env .strip img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.env .vinyl{position:absolute;left:6%;top:18%;width:40%;transform:rotate(-8deg);z-index:1}
+.env .lily{position:absolute;right:6%;top:6%;width:30%;z-index:1}
+.env .fern{position:absolute;left:8%;top:-4%;width:22%;z-index:1}
+.env .front{position:absolute;left:2%;right:6%;bottom:0;height:56%;background:var(--pink);transform:rotate(-8deg);transform-origin:left bottom;z-index:3;clip-path:polygon(0 12%,38% 12%,44% 0,100% 0,100% 100%,0 100%)}
+.env .star{position:absolute;right:-2%;bottom:-6%;width:30%;z-index:4;display:grid;place-items:center}
+.env .star span{position:absolute;font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(1.2rem,3.4vw,2rem);color:var(--gold)}
+.env .seal{position:absolute;right:26%;bottom:-2%;width:15%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#a8483f,#5a1a16);z-index:5;box-shadow:0 3px 8px rgba(0,0,0,.4)}
+#cover h1{font-size:clamp(4.2rem,11vw,8.5rem);color:var(--cream)}
+#cover p{font-size:clamp(1.8rem,4vw,2.8rem);margin:.2rem 0 0 clamp(1rem,4vw,3rem);letter-spacing:.04em}
+
+/* About */
+#about{background:var(--pink) url(assets/p2_15.jpg) center/cover}
+#about .title{color:var(--cream);text-shadow:0 2px 0 rgba(111,93,88,.25);margin-bottom:1.5rem}
+#about .grid{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(1.5rem,4vw,3.5rem);align-items:start}
+.cv h3{font-family:inherit;font-weight:700;font-size:1.7rem;margin:1.2rem 0 .3rem}
+.cv dl{margin:0}
+.cv .row{display:grid;grid-template-columns:9.5rem 1fr;gap:.2rem 1rem;margin-bottom:.9rem}
+.cv dt{font-weight:700}
+.cv dd{margin:0}
+.cv dd b{display:block}
+.book{position:relative;display:grid;grid-template-columns:1fr 1fr;background:#fdfdf8;border:10px solid #8a5a35;border-radius:10px;box-shadow:0 12px 30px rgba(60,30,20,.35);padding:1.6rem 1.8rem;gap:2.6rem}
+.book::before{content:"";position:absolute;left:50%;top:6px;bottom:6px;width:14px;transform:translateX(-50%);background:repeating-linear-gradient(#333 0 8px,transparent 8px 22px);border-radius:6px;opacity:.85}
+.book h2{font-size:2.4rem;margin-bottom:.6rem}
+.book p{margin:0 0 .9rem;text-align:justify;font-size:1.08rem;hyphens:auto}
+
+/* Skills */
+#skills{background:repeating-linear-gradient(90deg,var(--mauve) 0 7%,var(--cream) 7% 14%);min-height:80svh;display:grid;align-items:center}
+#skills .title{color:#c8e0fb;text-shadow:2px 2px 0 rgba(0,0,0,.35)}
+.basket{margin:2rem auto 0;max-width:520px;padding:2.2rem;border-radius:12px 12px 26px 26px;background:repeating-linear-gradient(0deg,#c98e55 0 9px,#a8723d 9px 12px),#c98e55;box-shadow:inset 0 0 0 6px #e0a96a,0 14px 24px rgba(0,0,0,.3);display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;place-items:center;transform:rotate(-3deg)}
+.basket>*{width:96px;height:96px;border-radius:22px;object-fit:cover;box-shadow:0 4px 10px rgba(0,0,0,.35)}
+.basket .canva{display:grid;place-items:center;border-radius:50%;background:linear-gradient(135deg,#00c4cc,#7d2ae8);color:#fff;font:italic 700 1.5rem "Cormorant Garamond",serif}
+.basket img[alt="CapCut"]{background:#fff;padding:10px}
+.skilltxt{list-style:none;padding:0;margin:1.5rem 0 0;display:flex;gap:.6rem 1.4rem;flex-wrap:wrap;color:var(--ink);font-weight:700}
+
+/* Projects */
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,4vw,3rem);align-items:center}
+.proj h2{font-size:clamp(3rem,7vw,5rem);margin-bottom:.6rem}
+.proj p{max-width:34rem;text-align:justify;margin:0}
+.gal{display:grid;gap:.7rem}
+.gal img,.gal button img{width:100%;height:100%;object-fit:cover;border-radius:3px;box-shadow:0 3px 10px rgba(0,0,0,.18)}
+.gal button{padding:0;border:0;background:none;cursor:zoom-in;display:block}
+.g3{grid-template-columns:repeat(3,1fr)}
+#kochaa{background:linear-gradient(160deg,#ffc3d9,#ffd3e3)}
+#kochaa h2{color:var(--ink)}
+#kochaa .menus{display:grid;gap:.7rem;margin-top:1rem}
+#kochaa .banner{display:flex;justify-content:center;margin-bottom:2rem}
+#kochaa .banner h2{background:#fff;padding:.4rem 3rem;clip-path:polygon(0 30%,12% 0,25% 30%,38% 0,50% 30%,62% 0,75% 30%,88% 0,100% 30%,100% 70%,88% 100%,75% 70%,62% 100%,50% 70%,38% 100%,25% 70%,12% 100%,0 70%);font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(2rem,5vw,3.4rem);padding-bottom:1.2rem;padding-top:1.2rem}
+#dimsum{background:linear-gradient(160deg,#8fbae6,#e6effa)}
+#dimsum h2{color:#fff;text-shadow:0 0 1px #fff,2px 2px 0 rgba(70,110,170,.5)}
+#dimsum .cover{grid-column:1/-1;border-radius:3px;overflow:hidden}
+#dummy{background:linear-gradient(160deg,#ffc3d9,#ffd3e3)}
+#dummy h2{color:var(--cream);text-shadow:0 2px 0 rgba(111,93,88,.3);text-align:center;font-size:clamp(3.4rem,8vw,6rem);margin-bottom:1.5rem}
+#dummy h3{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:1.8rem;color:#fff;-webkit-text-stroke:1px #999;letter-spacing:.04em;margin-bottom:.6rem}
+.dgrid{display:grid;grid-template-columns:.7fr 1fr 1.3fr;gap:1.5rem;align-items:start}
+.dgrid .logos{display:grid;gap:.8rem}
+#logos{background:var(--cream)}
+#logos h2{text-align:center;margin-bottom:2rem}
+.frames{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.8rem,2.5vw,2rem);max-width:980px;margin:0 auto}
+.frame{aspect-ratio:1;background:url(assets/p7_54.png) center/100% 100% no-repeat;display:grid;place-items:center;padding:13%}
+.frame img{width:100%;height:100%;object-fit:contain;border-radius:50%;background:#fff}
+#club{background:var(--blue)}
+#club .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:2rem;align-items:center}
+#club .cloud{aspect-ratio:1.5;background:url(assets/p8_66.png) center/contain no-repeat;display:grid;place-items:center}
+#club .cloud h2{color:#e49bbd;font-size:clamp(3rem,7vw,5.2rem);text-align:center;text-shadow:0 1px 0 #fff}
+.g4{grid-template-columns:repeat(4,1fr)}
+#thanks{min-height:70svh;display:grid;place-items:center;background:var(--mauve) url(assets/p9_75.png) center/cover;color:var(--cream);text-align:center}
+#thanks::before{content:"";position:absolute;inset:0;background:rgba(111,93,88,.82)}
+#thanks h2{position:relative;font-size:clamp(4rem,12vw,8rem)}
+dialog{border:0;background:transparent;padding:0;max-width:92vw;max-height:92vh}
+dialog::backdrop{background:rgba(20,10,15,.85)}
+dialog img{max-height:90vh;border-radius:4px}
+
+@media (max-width:860px){
+ #cover .wrap,#about .grid,.proj,.dgrid,#club .grid{grid-template-columns:1fr}
+ .book{grid-template-columns:1fr;gap:0;padding:1.2rem}.book::before{display:none}
+ .cv .row{grid-template-columns:1fr}
+ .frames{grid-template-columns:repeat(2,1fr)}
+ .g4{grid-template-columns:repeat(3,1fr)}
+ #cover p{margin-left:0}
+}
+</style>
+</head>
+<body>
+
+<section id="cover">
+ <div class="wrap">
+  <div class="env" role="img" aria-label="Amplop pink berisi foto strip Anastasya, piringan hitam, dan bunga">
+   <img class="fern" src="assets/p1_4.png" alt="">
+   <img class="vinyl" src="assets/p1_6.png" alt="">
+   <img class="lily" src="assets/p1_8.png" alt="">
+   <div class="back"></div>
+   <div class="strip"><img src="assets/p1_10.jpg" alt=""><img src="assets/p1_11.jpg" alt=""><img src="assets/p1_12.jpg" alt=""></div>
+   <div class="front"></div>
+   <div class="seal"></div>
+   <div class="star"><img src="assets/p1_13.png" alt=""><span>2026</span></div>
+  </div>
+  <div><h1>Anastasya</h1><p>Portofolio</p></div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="wrap">
+  <h2 class="title">About Me</h2>
+  <div class="grid">
+   <div class="cv">
+    <h3>Education</h3>
+    <dl><div class="row"><dt>2022 – 2026</dt><dd><b>Universitas Pembangunan Nasional “Veteran” Jakarta</b>Law Major, 3.90/4.00 GPA</dd></div></dl>
+    <h3>Experience</h3>
+    <dl>
+     <div class="row"><dt>Mar 2024 – Dec 2024</dt><dd><b>Chief Production &amp; Design Editor</b>Possess hands-on experience in visual content creation</dd></div>
+     <div class="row"><dt>Sept 2023 – Nov 2023</dt><dd><b>Chief of Publication, Documentation &amp; Design</b>Directed the Publication, Documentation &amp; Design division, overseeing the creation of visual content, promotional materials, and event documentation.</dd></div>
+    </dl>
+   </div>
+   <div class="book">
+    <div>
+     <h2>Hi, I’m Anastasya</h2>
+     <p>I took Interest in Graphic Design as soon as i step into a high school. At that time, picsart is the only tools i able to try. Stepping on to college, i got into a journalism club and succesfully become a head of production and design</p>
+     <p>I have done a lot of projects, including: making poster, logos, magazine and bulletin cover, new illustration, feeds instagram, and many more!</p>
+    </div>
+    <div>
+     <p>I know my passion is not align with my degree. But, creativity and crafting has been a part of me ever since i was a kid. Being in a journalism club where i could discovery more about myself make me know right away that graphic designer would be my carrier.</p>
+     <p>I love being creative and willing to learn about something new as a fast learner and curious girl. Thus also make me passionate in writing, specially journalism writing and poems.</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="wrap" style="text-align:center">
+  <h2 class="title">Skills &amp; App</h2>
+  <div class="basket" aria-label="Aplikasi yang dikuasai">
+   <img src="assets/p3_27.jpg" alt="CapCut">
+   <img src="assets/p3_26.jpg" alt="ibis Paint X">
+   <div class="canva" role="img" aria-label="Canva">Canva</div>
+   <img src="assets/p3_28.png" alt="Figma">
+  </div>
+ </div>
+</section>
+
+<section id="kochaa">
+ <div class="wrap">
+  <div class="banner"><h2>Project</h2></div>
+  <div class="proj">
+   <div class="gal g3" data-zoom>
+    <img src="assets/p4_34.jpg" alt="Poster Grand Opening Teh Kochaa">
+    <img src="assets/p4_33.jpg" alt="Poster Grand Opening Teh Kochaa versi garis hijau">
+    <img src="assets/p4_32.jpg" alt="Poster Grand Opening Teh Kochaa gaya struk">
+    <img src="assets/p4_31.jpg" alt="Poster Our Best Seller Teh Kochaa">
+    <img src="assets/p4_36.jpg" alt="Poster Our Best Seller Teh Kochaa versi kartu">
+    <img src="assets/p4_35.jpg" alt="Poster Grand Opening Teh Kochaa gratis es teh">
+   </div>
+   <div>
+    <div class="gal" data-zoom style="margin-bottom:1.4rem"><img src="assets/p4_30.jpg" alt="Menu Teh Kochaa versi hijau terang"><img src="assets/p4_37.jpg" alt="Menu Teh Kochaa versi hijau tua"></div>
+    <h2>Teh Kochaa</h2>
+    <p>My first project outside my journalism club. In this ptoject i'm making menu, poster and pamflet for 'Teh Kocha' Grand Opening. I love this project becaus of the theme is more fun and fresh so i could explore a lot.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="dimsum">
+ <div class="wrap proj">
+  <div>
+   <h2>Dimsum Yummy</h2>
+   <p>My second project outside my journalism club is self own business with my friends. In this ptoject i'm making feeds, poster and pamflet for 'Dimsum Yummy'. This project also my favorite because me nd my friends making everything from scratch.</p>
+  </div>
+  <div class="gal g3" data-zoom>
+   <img src="assets/p5_38.jpg" alt="Poster Open Pre-Order Dimsum Yummy">
+   <img src="assets/p5_39.jpg" alt="Poster Open Pre-Order 5–7 Oct">
+   <img src="assets/p5_41.jpg" alt="Poster Order Form is Open">
+   <img src="assets/p5_43.jpg" alt="Poster Pre-order is open piknik">
+   <img src="assets/p5_44.jpg" alt="Poster Open Pre-Order 9–11 Oct">
+   <img src="assets/p5_42.jpg" alt="Poster Open Pre-Order kotak bekal">
+   <div class="cover" style="grid-column:1/-1"><img src="assets/p5_40.jpg" alt="Banner Dimyum: Dimsum homemade yummy, berasa ayamnya"></div>
+  </div>
+ </div>
+</section>
+
+<section id="dummy">
+ <div class="wrap">
+  <h2>Dummy Project</h2>
+  <div class="dgrid">
+   <div><h3>Logo:</h3><div class="logos gal" data-zoom><img src="assets/p6_48.jpg" alt="Logo Big Meal merah"><img src="assets/p6_49.jpg" alt="Logo Big Meal putih"></div></div>
+   <div><h3>Menu:</h3><div class="gal" data-zoom><img src="assets/p6_47.jpg" alt="Menu Big Meal"></div></div>
+   <div><h3>Feeds:</h3><div class="gal" data-zoom><img src="assets/p6_45.png" alt="Feeds Instagram Big Meal"></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="logos">
+ <div class="wrap">
+  <h2 class="title">Logos</h2>
+  <div class="frames">
+   <div class="frame"><img src="assets/p7_62.jpg" alt="Logo Big Meal"></div>
+   <div class="frame"><img src="assets/p7_63.jpg" alt="Logo Aspirasi"></div>
+   <div class="frame"><img src="assets/p7_64.jpg" alt="Logo Omah Biru"></div>
+   <div class="frame"><img src="assets/p7_65.jpg" alt="Logo 39"></div>
+  </div>
+ </div>
+</section>
+
+<section id="club">
+ <div class="wrap grid">
+  <div class="gal g4" data-zoom>
+   <img src="assets/p8_68.jpg" alt="Poster Pesta Oligarki">
+   <img src="assets/p8_71.jpg" alt="Poster Hot News Wisuda ke-73">
+   <img src="assets/p8_70.jpg" alt="Poster Rancangan Pembangunan GKKM">
+   <img src="assets/p8_74.jpg" alt="Poster Baca Tulisan Selengkapnya">
+   <img src="assets/p8_73.jpg" alt="Poster Besaran IPI FK UPNVJ">
+   <img src="assets/p8_72.jpg" alt="Poster Telah Terbit Wisuda ke-73">
+   <img src="assets/p8_69.jpg" alt="Poster Telah Terbit Wisuda ke-72">
+  </div>
+  <div class="cloud"><h2>Journalism Club</h2></div>
+ </div>
+</section>
+
+<section id="thanks"><h2>Thankyou!</h2></section>
+
+<dialog id="dlg"><img alt=""></dialog>
+<script>
+(function(){
+ var d=document.getElementById('dlg'),big=d.querySelector('img');
+ document.querySelectorAll('[data-zoom] img').forEach(function(i){
+  i.tabIndex=0;i.style.cursor='zoom-in';
+  function open(){big.src=i.src;big.alt=i.alt;d.showModal();}
+  i.addEventListener('click',open);
+  i.addEventListener('keydown',function(e){if(e.key==='Enter')open();});
+ });
+ d.addEventListener('click',function(){d.close();});
+})();
+</script>
+</body>
+</html>
